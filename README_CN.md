@@ -3,7 +3,7 @@
 [English](README.md) | [中文](README_CN.md)
 
 <p align="center">
-  <img src="fig/banner_cn.png" alt="开源科研自动化项目精选" width="800">
+  <img src="fig/banner_cn.jpg" alt="开源科研自动化项目精选" width="800">
 </p>
 
 > 🤖 精选的自动化科研开源项目列表 —— 覆盖文献综述、想法生成、实验执行、论文撰写与同行评审全流程。
