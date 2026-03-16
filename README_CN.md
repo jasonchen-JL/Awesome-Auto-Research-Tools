@@ -50,6 +50,7 @@
 | [PaperQA2](https://github.com/Future-House/paper-qa) | <img src="https://img.shields.io/github/stars/Future-House/paper-qa?style=for-the-badge" height="36"> | 自研 + **LiteLLM**, Pydantic, tantivy | OpenAI, Anthropic, Gemini, Ollama, llama.cpp；任何 LiteLLM 支持的提供商 | 面向科学文献的高精度 RAG 系统。动态检索全文论文并迭代优化回答。发表于 ICLR。 |
 | [DeepResearchAgent](https://github.com/SkyworkAI/DeepResearchAgent) | <img src="https://img.shields.io/github/stars/SkyworkAI/DeepResearchAgent?style=for-the-badge" height="36"> | 自研（Autogenesis 自演化协议），MMEngine 配置 | OpenRouter（多模型访问） | 昆仑万维出品。层级多智能体系统，顶层规划智能体协调多个专业化底层智能体。 |
 | [OpenScholar](https://github.com/AkariAsai/OpenScholar) | <img src="https://img.shields.io/github/stars/AkariAsai/OpenScholar?style=for-the-badge" height="36"> | 自研 RAG（PyTorch, HuggingFace, Contriever） | OpenAI (GPT-4o), Llama 3.1 8B（自部署）；Semantic Scholar API, You.com | 检索增强语言模型，搜索 4500 万篇论文。发表于 Nature。超越 PaperQA2 和 Perplexity Pro。 |
+| [Idea2Paper](https://github.com/AgentAlphaAGI/Idea2Paper) | <img src="https://img.shields.io/github/stars/AkariAsai/OpenScholar?style=for-the-badge" height="36"> | 自研 RAG（PyTorch, HuggingFace, Contriever） | OpenAI (GPT-4o), Llama 3.1 8B（自部署）；Semantic Scholar API, You.com | 检索增强语言模型，搜索 4500 万篇论文。发表于 Nature。超越 PaperQA2 和 Perplexity Pro。 |
 
 ## ⚙️ 自动化实验与代码智能体
 
