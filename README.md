@@ -1,5 +1,7 @@
 # Awesome Auto Research [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+[English](README.md) | [中文](README_CN.md)
+
 > A curated list of open-source projects that automate scientific research — from literature review to idea generation, experiment execution, paper writing, and peer review.
 
 **Star counts last verified: 2026-03-16**
@@ -28,6 +30,7 @@
 | [Agent Laboratory](https://github.com/SamuelSchmidgall/AgentLaboratory) | ![Stars](https://img.shields.io/github/stars/SamuelSchmidgall/AgentLaboratory?style=social) | End-to-end autonomous research workflow with specialized agents for literature review, experimentation, and report writing. Integrates arXiv, Hugging Face, Python, and LaTeX. |
 | [AI-Researcher](https://github.com/HKUDS/AI-Researcher) | ![Stars](https://img.shields.io/github/stars/HKUDS/AI-Researcher?style=social) | NeurIPS 2025 Spotlight. Fully autonomous system covering literature review, hypothesis generation, algorithm implementation, and publication-ready manuscript preparation. |
 | [AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) | ![Stars](https://img.shields.io/github/stars/SakanaAI/AI-Scientist-v2?style=social) | Upgraded version using agentic tree search. Generated the first workshop paper written entirely by AI and accepted through peer review. Removes reliance on human-authored templates. |
+| [ARIS](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | ![Stars](https://img.shields.io/github/stars/wanshuiyin/Auto-claude-code-research-in-sleep?style=social) | Claude Code skills for autonomous ML research: cross-model review loops (Codex MCP), idea discovery pipelines, experiment automation, and paper writing — all running while you sleep. |
 
 ## Deep Research & Literature Synthesis
 
