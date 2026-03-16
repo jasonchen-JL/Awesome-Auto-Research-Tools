@@ -1,25 +1,25 @@
-# Awesome Auto Research [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# 🔬 Awesome Auto Research [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 [English](README.md) | [中文](README_CN.md)
 
-> A curated list of open-source projects that automate scientific research — from literature review to idea generation, experiment execution, paper writing, and peer review.
+> 🤖 A curated list of open-source projects that automate scientific research — from literature review to idea generation, experiment execution, paper writing, and peer review.
 
-**Star counts last verified: 2026-03-16**
-
----
-
-## Table of Contents
-
-- [End-to-End Autonomous Research Systems](#end-to-end-autonomous-research-systems)
-- [Deep Research & Literature Synthesis](#deep-research--literature-synthesis)
-- [Automated Experiment & Code Agent](#automated-experiment--code-agent)
-- [Awesome Lists & Surveys](#awesome-lists--surveys)
-- [How This Differs from General AI Agent Lists](#how-this-differs-from-general-ai-agent-lists)
-- [Contributing](#contributing)
+**📅 Star counts last verified: 2026-03-16**
 
 ---
 
-## End-to-End Autonomous Research Systems
+## 📑 Table of Contents
+
+- [🧪 End-to-End Autonomous Research Systems](#-end-to-end-autonomous-research-systems)
+- [📚 Deep Research & Literature Synthesis](#-deep-research--literature-synthesis)
+- [⚙️ Automated Experiment & Code Agent](#️-automated-experiment--code-agent)
+- [📋 Awesome Lists & Surveys](#-awesome-lists--surveys)
+- [💡 How This Differs from General AI Agent Lists](#-how-this-differs-from-general-ai-agent-lists)
+- [🤝 Contributing](#-contributing)
+
+---
+
+## 🧪 End-to-End Autonomous Research Systems
 
 > Projects that automate the full research lifecycle: idea → experiment → paper.
 
@@ -32,7 +32,7 @@
 | [AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) | ![Stars](https://img.shields.io/github/stars/SakanaAI/AI-Scientist-v2?style=social) | Custom (BFTS agentic tree search, AIDE) | OpenAI (o1/o3/GPT-4o), Anthropic (Bedrock), Gemini | Upgraded version using agentic tree search. Generated the first AI-written workshop paper accepted through peer review. |
 | [ARIS](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | ![Stars](https://img.shields.io/github/stars/wanshuiyin/Auto-claude-code-research-in-sleep?style=social) | **Claude Code** + MCP servers (Codex, llm-chat, Zotero, Obsidian) | Anthropic Claude, OpenAI GPT, GLM-5, MiniMax, Kimi, Qwen, DeepSeek, LongCat; any OpenAI-compatible | Claude Code skills for autonomous ML research: cross-model review loops, idea discovery, experiment automation, and paper writing. |
 
-## Deep Research & Literature Synthesis
+## 📚 Deep Research & Literature Synthesis
 
 > Projects focused on automated information gathering, literature review, and report generation.
 
@@ -47,7 +47,7 @@
 | [DeepResearchAgent](https://github.com/SkyworkAI/DeepResearchAgent) | ![Stars](https://img.shields.io/github/stars/SkyworkAI/DeepResearchAgent?style=social) | Custom (Autogenesis self-evolution), MMEngine configs | OpenRouter (multi-model access) | Skywork. Hierarchical multi-agent system with top-level planning agent coordinating specialized lower-level agents. |
 | [OpenScholar](https://github.com/AkariAsai/OpenScholar) | ![Stars](https://img.shields.io/github/stars/AkariAsai/OpenScholar?style=social) | Custom RAG (PyTorch, HuggingFace, Contriever) | OpenAI (GPT-4o), Llama 3.1 8B (self-hosted); Semantic Scholar API, You.com | Retrieval-augmented LM searching 45M open-access papers. Published in Nature. Outperforms PaperQA2 and Perplexity Pro. |
 
-## Automated Experiment & Code Agent
+## ⚙️ Automated Experiment & Code Agent
 
 > Projects that automate coding, experiment execution, and iterative optimization. These serve as the "hands" of auto-research systems.
 
@@ -58,7 +58,7 @@
 | [Aider](https://github.com/Aider-AI/aider) | ![Stars](https://img.shields.io/github/stars/Aider-AI/aider?style=social) | Custom (AI pair-programming CLI), Git integration | Anthropic Claude, OpenAI, DeepSeek, OpenRouter, Ollama; nearly any LLM | AI pair programming in your terminal. Supports multi-file edits, git integration. Widely used as the coding backbone in research pipelines. |
 | [SWE-agent](https://github.com/SWE-agent/SWE-agent) | ![Stars](https://img.shields.io/github/stars/SWE-agent/SWE-agent?style=social) | Custom (YAML-config-driven), purpose-built for research | OpenAI (GPT-4o), Anthropic (Sonnet 4, Claude 3.7); configurable | Princeton. Turns LLMs into software engineering agents that fix real GitHub issues. Pioneered the SWE-Bench benchmark. |
 
-## Awesome Lists & Surveys
+## 📋 Awesome Lists & Surveys
 
 > Curated collections and survey papers on the auto-research landscape.
 
@@ -68,20 +68,20 @@
 
 ---
 
-## How This Differs from General AI Agent Lists
+## 💡 How This Differs from General AI Agent Lists
 
 This list focuses specifically on **automating the scientific research process** — not general-purpose AI agents. We include projects that target one or more stages of the research lifecycle:
 
 ```
-Literature Review → Idea Generation → Novelty Check → Experiment Design →
-Code Implementation → Experiment Execution → Result Analysis → Paper Writing → Peer Review
+📖 Literature Review → 💡 Idea Generation → 🔍 Novelty Check → 📐 Experiment Design →
+💻 Code Implementation → 🚀 Experiment Execution → 📊 Result Analysis → ✍️ Paper Writing → 📝 Peer Review
 ```
 
 General-purpose coding agents (OpenHands, Aider, SWE-agent) are included because they serve as critical infrastructure for the experiment execution stage.
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
 PRs welcome! Please ensure the project:
 - Has **1,000+ GitHub stars** (or is exceptionally notable with a top-venue publication)
@@ -92,12 +92,12 @@ Please keep entries sorted by star count (descending) within each category.
 
 ---
 
-## Star History
+## 📈 Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=karpathy/autoresearch,SakanaAI/AI-Scientist,bytedance/deer-flow,stanford-oval/storm,assafelovic/gpt-researcher,Alibaba-NLP/DeepResearch,langchain-ai/open_deep_research&type=Date)](https://star-history.com/#karpathy/autoresearch&SakanaAI/AI-Scientist&bytedance/deer-flow&stanford-oval/storm&assafelovic/gpt-researcher&Alibaba-NLP/DeepResearch&langchain-ai/open_deep_research&Date)
 
 ---
 
-## License
+## 📄 License
 
 [CC0 1.0 Universal](LICENSE)

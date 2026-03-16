@@ -1,25 +1,25 @@
-# Awesome Auto Research [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# 🔬 Awesome Auto Research [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 [English](README.md) | [中文](README_CN.md)
 
-> 精选的自动化科研开源项目列表 —— 覆盖文献综述、想法生成、实验执行、论文撰写与同行评审全流程。
+> 🤖 精选的自动化科研开源项目列表 —— 覆盖文献综述、想法生成、实验执行、论文撰写与同行评审全流程。
 
-**Star 数据最后验证时间：2026-03-16**
-
----
-
-## 目录
-
-- [端到端自主研究系统](#端到端自主研究系统)
-- [深度调研与文献综合](#深度调研与文献综合)
-- [自动化实验与代码智能体](#自动化实验与代码智能体)
-- [Awesome Lists 与综述](#awesome-lists-与综述)
-- [本列表与通用 AI Agent 列表的区别](#本列表与通用-ai-agent-列表的区别)
-- [贡献指南](#贡献指南)
+**📅 Star 数据最后验证时间：2026-03-16**
 
 ---
 
-## 端到端自主研究系统
+## 📑 目录
+
+- [🧪 端到端自主研究系统](#-端到端自主研究系统)
+- [📚 深度调研与文献综合](#-深度调研与文献综合)
+- [⚙️ 自动化实验与代码智能体](#️-自动化实验与代码智能体)
+- [📋 Awesome Lists 与综述](#-awesome-lists-与综述)
+- [💡 本列表与通用 AI Agent 列表的区别](#-本列表与通用-ai-agent-列表的区别)
+- [🤝 贡献指南](#-贡献指南)
+
+---
+
+## 🧪 端到端自主研究系统
 
 > 自动化完整研究生命周期：想法 → 实验 → 论文。
 
@@ -32,7 +32,7 @@
 | [AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) | ![Stars](https://img.shields.io/github/stars/SakanaAI/AI-Scientist-v2?style=social) | 自研（BFTS 智能体树搜索, AIDE） | OpenAI (o1/o3/GPT-4o), Anthropic (Bedrock), Gemini | AI-Scientist 升级版。首篇完全由 AI 撰写并通过同行评审被接收的 Workshop 论文。 |
 | [ARIS](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | ![Stars](https://img.shields.io/github/stars/wanshuiyin/Auto-claude-code-research-in-sleep?style=social) | **Claude Code** + MCP（Codex, llm-chat, Zotero, Obsidian） | Anthropic Claude, OpenAI GPT, GLM-5, MiniMax, Kimi, Qwen, DeepSeek, LongCat；任何 OpenAI 兼容 API | Claude Code skills 套件，用于自主 ML 研究：跨模型评审循环、想法发现流水线、实验自动化与论文撰写。 |
 
-## 深度调研与文献综合
+## 📚 深度调研与文献综合
 
 > 聚焦于自动信息收集、文献综述和报告生成。
 
@@ -47,7 +47,7 @@
 | [DeepResearchAgent](https://github.com/SkyworkAI/DeepResearchAgent) | ![Stars](https://img.shields.io/github/stars/SkyworkAI/DeepResearchAgent?style=social) | 自研（Autogenesis 自演化协议），MMEngine 配置 | OpenRouter（多模型访问） | 昆仑万维出品。层级多智能体系统，顶层规划智能体协调多个专业化底层智能体。 |
 | [OpenScholar](https://github.com/AkariAsai/OpenScholar) | ![Stars](https://img.shields.io/github/stars/AkariAsai/OpenScholar?style=social) | 自研 RAG（PyTorch, HuggingFace, Contriever） | OpenAI (GPT-4o), Llama 3.1 8B（自部署）；Semantic Scholar API, You.com | 检索增强语言模型，搜索 4500 万篇论文。发表于 Nature。超越 PaperQA2 和 Perplexity Pro。 |
 
-## 自动化实验与代码智能体
+## ⚙️ 自动化实验与代码智能体
 
 > 自动化编码、实验执行和迭代优化。这些项目是自动化研究系统的"双手"。
 
@@ -58,7 +58,7 @@
 | [Aider](https://github.com/Aider-AI/aider) | ![Stars](https://img.shields.io/github/stars/Aider-AI/aider?style=social) | 自研（AI 结对编程 CLI），Git 集成 | Anthropic Claude, OpenAI, DeepSeek, OpenRouter, Ollama；几乎任何 LLM | 终端中的 AI 结对编程。支持多文件编辑、Git 集成。广泛用作研究流水线中的编码基础设施。 |
 | [SWE-agent](https://github.com/SWE-agent/SWE-agent) | ![Stars](https://img.shields.io/github/stars/SWE-agent/SWE-agent?style=social) | 自研（YAML 配置驱动），面向研究场景 | OpenAI (GPT-4o), Anthropic (Sonnet 4, Claude 3.7)；可配置 | 普林斯顿出品。将 LLM 转化为修复真实 GitHub Issue 的软件工程智能体。开创 SWE-Bench 基准。 |
 
-## Awesome Lists 与综述
+## 📋 Awesome Lists 与综述
 
 > 自动化科研领域的精选集合和综述论文。
 
@@ -68,23 +68,23 @@
 
 ---
 
-## 本列表与通用 AI Agent 列表的区别
+## 💡 本列表与通用 AI Agent 列表的区别
 
 本列表专注于**自动化科研流程**，而非通用 AI 智能体。我们收录的项目覆盖研究生命周期的一个或多个阶段：
 
 ```
-文献综述 → 想法生成 → 新颖性检验 → 实验设计 →
-代码实现 → 实验执行 → 结果分析 → 论文撰写 → 同行评审
+📖 文献综述 → 💡 想法生成 → 🔍 新颖性检验 → 📐 实验设计 →
+💻 代码实现 → 🚀 实验执行 → 📊 结果分析 → ✍️ 论文撰写 → 📝 同行评审
 ```
 
 通用编码智能体（OpenHands、Aider、SWE-agent）被收录是因为它们是实验执行阶段的关键基础设施。
 
 ---
 
-## 贡献指南
+## 🤝 贡献指南
 
 欢迎提交 PR！请确保项目：
-- **1,000+ GitHub stars**（或在顶级会议发表的特别知名项目）
+- Has **1,000+ GitHub stars**（或在顶级会议发表的特别知名项目）
 - 与自动化科研直接相关
 - 开源且仓库活跃
 
@@ -92,12 +92,12 @@
 
 ---
 
-## Star 趋势
+## 📈 Star 趋势
 
 [![Star History Chart](https://api.star-history.com/svg?repos=karpathy/autoresearch,SakanaAI/AI-Scientist,bytedance/deer-flow,stanford-oval/storm,assafelovic/gpt-researcher,Alibaba-NLP/DeepResearch,langchain-ai/open_deep_research&type=Date)](https://star-history.com/#karpathy/autoresearch&SakanaAI/AI-Scientist&bytedance/deer-flow&stanford-oval/storm&assafelovic/gpt-researcher&Alibaba-NLP/DeepResearch&langchain-ai/open_deep_research&Date)
 
 ---
 
-## 许可证
+## 📄 许可证
 
 [CC0 1.0 Universal](LICENSE)
